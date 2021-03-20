@@ -3,6 +3,10 @@
 currentdir=`pwd`
 source ${currentdir}/config.sh
 
+if [ -n "$1" ]; then
+  configdir+="/$1"
+fi
+
 if [ -z "${ignoredir}" ]; then
   config1=$(find $configdir -type f -print | sort -r | peco --prompt="config1>")
   config2=$(find $configdir -type f -print | sort -r | peco --prompt="config2>")
