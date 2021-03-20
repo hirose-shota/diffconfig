@@ -1,6 +1,5 @@
 #!/bin/bash
 
-currentdir=`pwd` 
 
-configdir="${currentdir}/tftpboot"
+configdir="./tftpboot"
 ignoredir="_binary"

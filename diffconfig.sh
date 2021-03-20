@@ -1,7 +1,6 @@
 #!/bin/bash
 
-currentdir=`pwd`
-source ${currentdir}/config.sh
+source ./config.sh
 
 if [ -n "${1}" ]; then
   configdir+="/${1}"
