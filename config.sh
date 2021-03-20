@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-configdir="./tftpboot"
+configdir="./configdir"
 ignoredir="_binary"
