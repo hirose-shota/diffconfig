@@ -15,5 +15,5 @@ else
   config2=$(find $configdir -type d -name ${ignoredir} -prune -o -type f -print | sort -r | peco --prompt="config2>")
 fi
 
-echo "diff $config1 $config2"
-diff "$config1" "$config2"
+echo "diff -u $config1 $config2"
+diff -u "$config1" "$config2"
