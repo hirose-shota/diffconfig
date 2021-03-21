@@ -6,4 +6,3 @@ workflows:
     jobs:
       - shellcheck/check:
           dir: ./
-          external_sources: true
