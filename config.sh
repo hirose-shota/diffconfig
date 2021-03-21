@@ -1,5 +1,3 @@
 #!/bin/bash
-
-
-configdir="./configdir"
-ignoredir="_binary"
+export configdir="./configdir"
+export ignoredir="_binary"
